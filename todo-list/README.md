@@ -1,6 +1,6 @@
 # Todo List
 
-This is a todo list implemented using Typescript
+This is my first todo list web application implemented using Typescript
 
 ## How it looks like
 
