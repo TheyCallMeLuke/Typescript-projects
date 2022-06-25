@@ -1,24 +1,23 @@
 # New Project
 
-> ✨ Bootstrapped with Create Snowpack App (CSA).
+This is my third todo list app implemented using Typescript. It's an upgraded version of my 2nd todo list app.
 
-## Available Scripts
+## Skeleton source
 
-### npm start
+https://www.youtube.com/watch?v=6eFwtaZf6zc&ab_channel=TylerPotts
 
-Runs the app in the development mode.
-Open http://localhost:8080 to view it in the browser.
+## Screenshot 
 
-The page will reload if you make edits.
-You will also see any lint errors in the console.
+![alt text](https://github.com/TheyCallMeLuke/Typescript-projects/blob/main/todo-list-3/screenshots/todo-list-3.png?raw=true)
 
-### npm run build
+## Features
+- Add tasks to the list
+- Edit tasks in the list
+- Remove tasks from the list
+- Mark a checkbox indicating the completion of the task
+- Persist every change (add, edit, remove, checkbox change)
 
-Builds a static copy of your site to the `build/` folder.
-Your app is ready to be deployed!
-
-**For the best production performance:** Add a build bundler plugin like [@snowpack/plugin-webpack](https://github.com/snowpackjs/snowpack/tree/main/plugins/plugin-webpack) or [snowpack-plugin-rollup-bundle](https://github.com/ParamagicDev/snowpack-plugin-rollup-bundle) to your `snowpack.config.mjs` config file.
-
-### Q: What about Eject?
-
-No eject needed! Snowpack guarantees zero lock-in, and CSA strives for the same.
+## Tech stack
+- HTML
+- CSS
+- Typescript
