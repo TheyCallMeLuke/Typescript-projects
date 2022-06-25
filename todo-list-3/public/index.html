@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <link rel="icon" href="/favicon.ico" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description" content="Web site created using create-snowpack-app" />
+  <link rel="stylesheet" type="text/css" href="/index.css" />
+  <title>Task List</title>
+<script>window.HMR_WEBSOCKET_PORT=8080</script>
+<script type="module" integrity="sha384-IkEG+pQ97NYQ1zPke/UZIHi6tBD3VWJ3Lwg4uIKq9r7wP0TDK0DAixk8G0+cV8SE" src="/_snowpack/hmr-client.js"></script><script type="module" integrity="sha384-NqPrVwr/QfEL5xYjG7VJFpc6h0qshh4M+Ko2aDQ07JCP7QJr+SLvIXGiMpzHZKy1" src="/_snowpack/hmr-error-overlay.js"></script></head>
+
+<body>
+
+  <header>
+    <h1>Task List</h1>
+    <form id="new-task-form">
+      <input type="text" id="new-task-input" placeholder="What do you have planned?" />
+      <input type="submit" id="new-task-submit" value="Add task" />
+    </form>
+  </header>
+
+  <main>
+    <section class="task-list">
+      <h2>Tasks</h2>
+      <div id="tasks">
+        <!-- <div class="task">
+          <div class="task-info">
+            <input type="checkbox" class="completion">
+            <div class="content">
+              <input type="text" class="text" value="My shiny task" readonly />
+            </div>
+          </div>
+          <div class="actions">
+            <button class="edit">Edit</button>
+            <button class="delete">Delete</button>
+          </div>
+        </div> -->
+      </div>
+    </section>
+  </main>
+
+  <script type="module" src="/dist/index.js"></script>
+
+</body>
+
+</html>
