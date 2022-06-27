@@ -1,4 +1,4 @@
-# New Project
+# Todo-list-3
 
 This is my third todo list app implemented using Typescript. It's an upgraded version of my 2nd todo list app.
 
